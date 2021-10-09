@@ -2,7 +2,8 @@ import React, {useEffect} from 'react';
 import MovieListing from './MovieListing'
 import movieApi from '../common/apis/movieApi'
 import {APIKey} from '../common/apis/MovieApiKey'
-import {useDispatch} from '../../features/movies/moviesSlice'
+import {addMovies} from '../features/movies/moviesSlice'
+import { useDispatch } from "react-redux";
 
 const Home = () => {
    const movieText = 'Harry';
@@ -16,7 +17,7 @@ const Home = () => {
          dispatch(addMovies(response.data))
       }
       fetchMovies();
-   }, []);
+   },);
    return (
       <div>
          <div className='banner-img'></div>
