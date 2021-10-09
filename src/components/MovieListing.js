@@ -18,7 +18,7 @@ const MovieListing = () => {
       <div className='movie-wrapper p-2'>
          <div className="movie-list my-5 mx-0 ">
             <h2 className='text-white mb-2 font-bold'>Movies</h2>
-            <div className="movie-container grid grid-cols-6 gap-2">{renderMovies}</div>{/**ml-10*/}
+            <div className="movie-container grid grid-cols-6 gap-2">{renderMovies}</div>
          </div>
       </div>
    );
