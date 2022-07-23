@@ -26,5 +26,6 @@ function App() {
 export default App;
 
 // Movie Detail design remaining 30:00 (2)
-// Movie Carousal remaning 03:00 (3)
+// Movie Carousal, searchbar design remaning 03:00 (3)
+// continue from 24:58 (3)
 
